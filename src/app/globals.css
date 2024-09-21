@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-header {
+  @apply flex bg-slate-200 border-b border-slate-400 p-4;
+}
+.page-header > nav {
+  @apply flex justify-between w-full;
+}
+
+.page-body {
+}
+
+.page-content {
+  @apply p-4;
+}
+
+.top-nav,
+.user-nav {
+  @apply flex gap-4;
+}
